@@ -39,6 +39,7 @@ public class QuickSort {
 
     }
 
+    // 注意不能用位运算，当两个数相等的时候，异或运算就有问题
     public static void swap(int[] array, int i, int j) {
         int temp = array[i];
         array[i] = array[j];
